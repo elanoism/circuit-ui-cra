@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Enzyme, { mount } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 import { ThemeProvider } from "emotion-theming";
-import { circuit } from "circuit-ui/lib/themes";
+import { circuit } from "circuit-ui/lib/es/themes";
 import App, { Test } from "./App";
 
 Enzyme.configure({ adapter: new Adapter() });
